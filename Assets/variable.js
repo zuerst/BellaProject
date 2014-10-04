@@ -1,2 +1,1 @@
-
-static var xSpeed : float = 4f;
+static var xSpeed : float = 8f;

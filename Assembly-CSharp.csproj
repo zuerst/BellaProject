@@ -5,11 +5,11 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{EA8D13A4-0120-AB65-8316-125FA7288D76}</ProjectGuid>
+	<ProjectGuid>{E19D8BF4-B1CF-1A58-B5EA-FAC55CB5FD13}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
-	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
 	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
 	<FileAlignment>512</FileAlignment>
 	<BaseDirectory>Assets</BaseDirectory>
@@ -46,13 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\GameManager.js" />
-     <Compile Include="Assets\GameSetup.js" />
-     <Compile Include="Assets\MainCam.js" />
-     <Compile Include="Assets\Score.js" />
-     <Compile Include="Assets\eatable.js" />
-     <Compile Include="Assets\playerControl.js" />
-     <Compile Include="Assets\variable.js" />
+     <Compile Include="Assets\Score.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>
